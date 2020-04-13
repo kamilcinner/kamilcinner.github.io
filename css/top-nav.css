@@ -1,0 +1,41 @@
+nav {
+    background-color: #ddc9da;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    border-right: 1px dashed #440336;
+}
+
+nav ul li:first-child { border-left: 1px dashed #440336; }
+
+nav a {
+    display: block;
+    width: 100px;
+    padding: 0 20px;
+}
+
+nav a:hover {
+    color: #d40eaa;
+}
+
+nav li:hover {
+    background-color: #e2d0df;
+}
+
+.sticky-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}

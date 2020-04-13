@@ -1,0 +1,38 @@
+<form method="get">
+  <h1>Please fill the contact form</h1>
+
+  <div class="form-group">
+    <label for="firstname">First name</label>
+    <input type="text" id="firstname" required pattern="^([A-ZŁŚ][a-ząśćńęóżź]{1,25})$"
+           title="Enter Your first name here">
+  </div>
+
+  <div class="form-group">
+    <label for="lastname">Last name</label>
+    <input type="text" id="lastname" required pattern="^([A-ZŁŚ][a-ząśćńęóżź]{1,25})$"
+           title="Enter Your last name here">
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" required placeholder="kamil.cinner@gmail.com"
+           pattern="^[a-zA-Z0-9_\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$"
+           title="Enter Your email here">
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone number</label>
+    <input type="text" id="phone" required placeholder="123456789" pattern="[0-9]{9}"
+           title="Enter Your phone number here">
+  </div>
+
+  <div class="form-group">
+    <label for="message">Your message</label>
+    <textarea rows="10" id="message" required title="Enter Your message here"
+              placeholder="I love all of Your work!"></textarea>
+  </div>
+
+  <input type="submit" value="Send">
+
+</form>
+

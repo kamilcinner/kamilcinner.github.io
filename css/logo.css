@@ -1,0 +1,13 @@
+.logo {
+    font-family: 'Akronim', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    color: #df1a83;
+    letter-spacing: 2px;
+}
+
+.logo a { color: #df1a83; }
+
+/*.logo a:hover { color: #ff8ad0; }*/

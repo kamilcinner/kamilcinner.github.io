@@ -1,0 +1,17 @@
+a:link {
+    color: #440336;
+    text-decoration: none;
+}
+a:visited {
+    color: #440336;
+}
+a:hover {
+    color: #440336;
+}
+a:active {
+    color: #440336;
+}
+
+[role="button"] {
+    cursor: pointer;
+}
