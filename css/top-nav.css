@@ -10,15 +10,16 @@ nav ul {
     margin: 0;
     padding: 0 10px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 nav ul li {
-    border-right: 1px dashed #440336;
+    /*border-right: 1px dashed #440336;*/
 }
 
-nav ul li:first-child { border-left: 1px dashed #440336; }
+/*nav ul li:first-child { border-left: 1px dashed #440336; }*/
 
 nav a {
     display: block;
