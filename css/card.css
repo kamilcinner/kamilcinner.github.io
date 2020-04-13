@@ -1,6 +1,7 @@
 .card {
     background-color: white;
     border: solid 1px #440336;
+    border-radius: 10px;
     height: 600px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -14,6 +15,7 @@
     display: inline-block;
 }
 .card img {
+    border-radius: 10px 10px 0 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
