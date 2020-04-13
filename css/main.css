@@ -11,6 +11,7 @@
 @import "form.css";
 
 body {
+    -webkit-tap-highlight-color: transparent;
 	/* Background pattern from Toptal Subtle Patterns */
 	background-image: url("../img/bg/full-bloom.png");
 
