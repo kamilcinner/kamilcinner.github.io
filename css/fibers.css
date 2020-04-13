@@ -12,5 +12,6 @@
 #fibers a:hover .card {
     transform: scale(0.96);
     opacity: 0.8;
+    /* To keep card stay below menu */
     z-index: 0;
 }

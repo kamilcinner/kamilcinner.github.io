@@ -7,6 +7,7 @@ nav {
 }
 
 nav ul {
+    overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0 10px;
@@ -41,10 +42,6 @@ nav li:hover {
     position: fixed;
     top: 0;
     border-bottom: 1px solid #440336;
+    /* To keep menu on top */
     z-index: 1;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + main {
-    padding-top: 60px;
 }

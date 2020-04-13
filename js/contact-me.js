@@ -32,7 +32,7 @@ function contactMe() {
         '  <div class="form-group">\n' +
         '    <label for="message">Your message</label>\n' +
         '    <textarea rows="10" id="message" required title="Enter Your message here"\n' +
-        '              placeholder="I love all of Your work!"></textarea>\n' +
+        '              placeholder="I love all of Your work Kornelia!"></textarea>\n' +
         '  </div>\n' +
         '\n' +
         '  <input type="submit" value="Send">\n' +

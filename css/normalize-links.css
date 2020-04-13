@@ -11,6 +11,9 @@ a:hover {
 a:active {
     color: #440336;
 }
+a:checked {
+
+}
 
 [role="button"] {
     cursor: pointer;
