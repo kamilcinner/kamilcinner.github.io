@@ -1,13 +1,13 @@
-@import "../_helpers/remove-weird-blue-light.css";
-@import "../_helpers/normalize-links.css";
-@import "../_models/card.css";
-@import "../_models/flip-flop.css";
+@import "../helpers/remove-weird-blue-light.css";
+@import "../helpers/normalize-links.css";
+@import "../models/card.css";
+@import "../models/flip-flop.css";
 
 @import "logo.css";
 @import "top-nav.css";
 @import "footer.css";
 
-@import "../_services/be-responsive.css";
+@import "../services/be-responsive.css";
 
 @import "../views/posts/posts.css";
 @import "../views/fibers.css";
