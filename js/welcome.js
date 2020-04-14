@@ -5,7 +5,7 @@ function welcome() {
         '  <h1>Welcome to my blog!</h1>\n' +
         '  <p>\n' +
         '    I\'m Kornelia and I hope You will spend here some really great time.' +
-        '    I put a lot of afford to create all of my arts which are also on the other' +
+        '    I put a lot of effort to create all of my arts which are also on the other' +
         '    hand very practical in life. Thanks to my dear friend Kamil, fibers' +
         '    will delight your eyes :)\n' +
         '  </p>\n' +
