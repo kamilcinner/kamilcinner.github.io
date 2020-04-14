@@ -1,0 +1,19 @@
+@import "overlay.css";
+
+#posts {
+    text-align: center;
+}
+
+#posts a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 600px;
+}
+
+#posts .flip-flop .flip img {
+    /* Shadow */
+    -webkit-box-shadow: 5px 5px 10px 0 rgba(100,100,100,0.75);
+    -moz-box-shadow:    5px 5px 10px 0 rgba(100,100,100,0.75);
+    box-shadow:         5px 5px 10px 0 rgba(100,100,100,0.75);
+}

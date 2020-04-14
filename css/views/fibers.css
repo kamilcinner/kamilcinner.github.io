@@ -1,0 +1,17 @@
+#fibers a .card {
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    /* Shadow */
+    -webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow:    5px 5px 10px 0 rgba(0,0,0,0.75);
+    box-shadow:         5px 5px 10px 0 rgba(0,0,0,0.75);
+}
+
+#fibers a:hover .card {
+    transform: scale(0.96);
+    opacity: 0.8;
+    /* To keep card stay below menu */
+    z-index: 0;
+}

@@ -1,0 +1,36 @@
+nav {
+    background-color: #ddc9da;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200%;
+
+    /*overflow: hidden;*/
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* For mobile safe */
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: block;
+    /*width: 100px;*/
+    padding: 0 10px;
+}
+
+nav a:hover {
+    color: #d40eaa;
+    background-color: #e2d0df;
+}
+
+.sticky-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #440336;
+    /* To keep menu on top */
+    z-index: 1;
+    /* Fix menu swimming to right */
+    padding-left: 0;
+}

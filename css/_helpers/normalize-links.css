@@ -1,0 +1,20 @@
+a:link {
+    color: #440336;
+    text-decoration: none;
+}
+a:visited {
+    color: #440336;
+}
+a:hover {
+    color: #440336;
+}
+a:active {
+    color: #440336;
+}
+a:checked {
+
+}
+
+[role="button"] {
+    cursor: pointer;
+}
