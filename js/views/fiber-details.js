@@ -1,4 +1,5 @@
 function fiberDetails(fiber) {
+    window.scrollTo(0, 0);
     var content = document.getElementById('content');
     var id = fiber.getAttribute('id');
     id = parseInt(id[id.length-1]);

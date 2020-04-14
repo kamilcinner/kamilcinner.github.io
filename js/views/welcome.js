@@ -1,4 +1,5 @@
 function welcome() {
+    window.scrollTo(0, 0);
     var content = document.getElementById('content');
     content.innerHTML =
         '<div id="welcome-index">\n' +

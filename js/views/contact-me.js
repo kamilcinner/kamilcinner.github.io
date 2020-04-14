@@ -1,4 +1,5 @@
 function contactMe() {
+    window.scrollTo(0, 0);
     var content = document.getElementById("content");
     content.innerHTML =
         '<form method="get">\n' +

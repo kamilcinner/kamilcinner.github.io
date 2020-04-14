@@ -1,4 +1,5 @@
 function myWorks() {
+    window.scrollTo(0, 0);
     const content = document.getElementById("content");
     var fibers = '';
     for (let i = 0;i < 9;i++) {

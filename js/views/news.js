@@ -1,4 +1,5 @@
 function news() {
+    window.scrollTo(0, 0);
     var content = document.getElementById('content');
     var posts = '';
     for (let i = 4;i < 9;i++) {
