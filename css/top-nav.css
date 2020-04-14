@@ -4,7 +4,7 @@ nav {
     font-size: 25px;
     line-height: 200%;
 
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0 10px;
     display: flex;
     align-items: center;
@@ -31,5 +31,6 @@ nav a:hover {
     border-bottom: 1px solid #440336;
     /* To keep menu on top */
     z-index: 1;
+    /* Fix menu swimming to right */
     padding-left: 0;
 }

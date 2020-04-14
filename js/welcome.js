@@ -6,11 +6,11 @@ function welcome() {
         '  <p>\n' +
         '    I\'m Kornelia and I hope You will spend here some really great time.' +
         '    I put a lot of effort to create all of my arts which are also on the other' +
-        '    hand very practical in life. Thanks to my dear friend Kamil, fibers' +
+        '    hand very practical in life. Thanks to my dear friend Kamil, handicrafts' +
         '    will delight your eyes :)\n' +
         '  </p>\n' +
         '  <p>\n' +
-        '    Don\'t forget to check my arts on Instagram and of course check Kamils\' socials :D\n' +
+        '    Don\'t forget to check my arts on Instagram and of course check Kamil\'s socials :D\n' +
         '  </p>\n' +
         '</div>';
 }
