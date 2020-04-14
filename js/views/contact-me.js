@@ -3,7 +3,9 @@ function contactMe() {
     var content = document.getElementById("content");
     content.innerHTML =
         '<form method="get">\n' +
-        '  <h1>Please fill the contact form</h1>\n' +
+        '  <header>\n' +
+        '    <h1>Please fill the contact form</h1>\n' +
+        '  </header>\n' +
         '\n' +
         '  <div class="form-group">\n' +
         '    <label for="firstname">First name</label>\n' +

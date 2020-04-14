@@ -5,15 +5,19 @@ function fiberDetails(fiber) {
     id = parseInt(id[id.length-1]);
     // alert(id);
     content.innerHTML =
-        '<div id="fiber-details">' +
-        '  <div class="card">\n' +
-        '    <figure>\n' +
-        '      <img src="' + FIBERS[id]['image-path'] + '" alt="' + FIBERS[id]['title'] + '">\n' +
-        '      <figcaption>' + FIBERS[id]['title'] + '</figcaption>\n' +
-        '    </figure>\n' +
-        '    <p>' + FIBERS[id]['description'] + '</p>\n' +
-        '    <hr>' +
-        '    <p>'+FIBERS[id]['author-words']+'</p>\n' +
+        '<article>\n' +
+        '  <div id="fiber-details">' +
+        '    <div class="card">\n' +
+        '      <figure>\n' +
+        '        <img src="' + FIBERS[id]['image-path'] + '" alt="' + FIBERS[id]['title'] + '">\n' +
+        '        <header>\n' +
+        '          <figcaption>' + FIBERS[id]['title'] + '</figcaption>\n' +
+        '        </header>\n' +
+        '      </figure>\n' +
+        '      <p>' + FIBERS[id]['description'] + '</p>\n' +
+        '      <hr>' +
+        '      <p>'+FIBERS[id]['author-words']+'</p>\n' +
+        '    </div>\n' +
         '  </div>\n' +
-        '</div>';
+        '</article>';
 }
