@@ -1,19 +1,19 @@
 function myWorks() {
-    var content = document.getElementById("content");
+    const content = document.getElementById("content");
     var fibers = '';
-    for (let i = 1;i <= 9;i++) {
+    for (let i = 0;i < 9;i++) {
         fibers +=
             '<div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">\n' +
-            '  <a href="#">\n' +
+            '<a id="'+FIBERS[i]['id']+'" role="button" onclick="fiberDetails(this)">\n' +
             '    <div class="card">\n' +
             '      <figure>\n' +
-            '        <img src="../img/fibers/fiber-'+i+'.jpg" alt="Włóczka-'+i+'">\n' +
-            '        <figcaption>Włóczka '+i+'</figcaption>\n' +
+            '        <img src="'+FIBERS[i]['image-path']+'" alt="'+FIBERS[i]['title']+'">\n' +
+            '        <figcaption>'+FIBERS[i]['title']+'</figcaption>\n' +
             '      </figure>\n' +
-            '      <p>Short description here...</p>\n' +
+            '      <p>'+FIBERS[i]['description']+'</p>\n' +
             '    </div>\n' +
             '  </a>\n' +
-            '</div>\n';
+            '</div>';
     }
     content.innerHTML = '<div id="fibers" class="row">'+fibers+'</div>';
 }

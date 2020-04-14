@@ -1,0 +1,15 @@
+#welcome-index {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-index h1 {
+    margin-bottom: 100px;
+}
+
+#welcome-index p {
+    font-size: 30px;
+    margin-bottom: 200px;
+}

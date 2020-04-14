@@ -1,0 +1,39 @@
+.flip-flop {
+    background-color: #ffebfc;
+    text-align: justify;
+    border-radius: 10px;
+    border: 3px solid white;
+    display: flex;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.flip-flop .flip {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.flip-flop .flip img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.flip-flop .flop {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.flip-flop .flop h2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.flip-flop .flop p {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
