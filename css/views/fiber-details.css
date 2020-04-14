@@ -4,5 +4,7 @@
 
 #fiber-details .card hr {
     width: 90%;
-    border: solid .03rem #ddc9da;
+    /*border: solid .03rem #ddc9da;*/
+    /* Root element font size */
+    border: solid .06rem #ddc9da;
 }
