@@ -10,9 +10,7 @@ function fiberDetails(fiber) {
         '    <div class="card">\n' +
         '      <figure>\n' +
         '        <img src="' + FIBERS[id]['image-path'] + '" alt="' + FIBERS[id]['title'] + '">\n' +
-        '        <header>\n' +
-        '          <figcaption>' + FIBERS[id]['title'] + '</figcaption>\n' +
-        '        </header>\n' +
+        '          <figcaption><h2>' + FIBERS[id]['title'] + '</h2></figcaption>\n' +
         '      </figure>\n' +
         '      <p>' + FIBERS[id]['description'] + '</p>\n' +
         '      <hr>' +

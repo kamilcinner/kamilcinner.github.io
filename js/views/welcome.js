@@ -3,9 +3,7 @@ function welcome() {
     var content = document.getElementById('content');
     content.innerHTML =
         '<div id="welcome-index">\n' +
-        '  <header>\n' +
-        '    <h1>Welcome to my blog!</h1>\n' +
-        '  </header>\n' +
+        '  <h1>Welcome to my blog!</h1>\n' +
         '  <p>\n' +
         '    I\'m Kornelia and I hope You will spend here some really great time.\n' +
         '    I put a lot of effort to create all of my arts which are also on the other\n' +

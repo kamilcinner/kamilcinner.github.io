@@ -24,9 +24,7 @@ function news() {
 
     content.innerHTML =
         '<div id="posts">\n' +
-        '  <header>' +
         '    <h1>Here are my most fresh works</h1>\n' +
-        '  </header>\n' +
             posts +
         '</div>';
 }

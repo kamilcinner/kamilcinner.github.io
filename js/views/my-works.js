@@ -10,9 +10,7 @@ function myWorks() {
             '      <div class="card">\n' +
             '        <figure>\n' +
             '          <img src="'+FIBERS[i]['image-path']+'" alt="'+FIBERS[i]['title']+'">\n' +
-            '          <header>\n' +
-            '            <figcaption>'+FIBERS[i]['title']+'</figcaption>\n' +
-            '          </header>\n' +
+            '            <figcaption><h2>'+FIBERS[i]['title']+'</h2></figcaption>\n' +
             '        </figure>\n' +
             '        <p>'+FIBERS[i]['description']+'</p>\n' +
             '      </div>\n' +
