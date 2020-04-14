@@ -11,8 +11,10 @@ footer strong {
     font-size: 20px;
 }
 
-footer h1 {
+footer h2 {
     margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 footer .row > div {
