@@ -31,4 +31,5 @@ nav a:hover {
     border-bottom: 1px solid #440336;
     /* To keep menu on top */
     z-index: 1;
+    padding-left: 0;
 }
